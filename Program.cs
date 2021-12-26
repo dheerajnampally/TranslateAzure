@@ -25,6 +25,7 @@ namespace TranslateAzure
 
         /*
          * Translate method which uses Azure Cognitive services 
+         * To do: May be implement try catch for catching errors, wrong ApiKey etc..
          */
         public static async Task<string> Translate(string text, string language)
         {
